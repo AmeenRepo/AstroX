@@ -10,7 +10,7 @@
   <a href="https://t.me/Tha_Healer">
     <img alt="X-2.0" height="300" src="https://ameen-api.vercel.app/AstroX">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=Check+Instructions+To+Deploy+Our+Bot)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=Check+Instructions;To+Deploy+Our+Bot)](https://git.io/typing-svg)
 
 
 
