@@ -17,14 +17,14 @@ const qrcode = require('qrcode-terminal')
 const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
-const path = require('path')
-const { fileURLToPath } = require('url')
+/*const path = require('path')
+const { fileURLToPath } = require('url')*/
 const { File } = require('megajs')
 const prefix = '!'
-
+/*
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-
+*/
 const ownerNumber = [ '916238768108', '918589959671'] // coma (,) ittit eniyum add akan kayyum
 async function loadSession() {
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -222,9 +222,9 @@ command.function(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGr
 
 })
 }
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'AstroX', 'index.html'))
-})
+})*/
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
  loadSession();       
