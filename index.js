@@ -17,8 +17,13 @@ const qrcode = require('qrcode-terminal')
 const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
+const path = require('path')
+const { fileURLToPath } = require('url')
 const { File } = require('megajs')
 const prefix = '!'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const ownerNumber = [ '916238768108', '918589959671'] // coma (,) ittit eniyum add akan kayyum
 async function loadSession() {
