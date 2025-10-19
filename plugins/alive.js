@@ -2,7 +2,7 @@ const config = require('../config')
 const {AstroX , commands} = require('../command')
 
 AstroX({
-    pattern: "alive",
+    pattern: "work",
     desc: "Check bot online or no.",
     category: "main",
     filename: __filename
