@@ -5,8 +5,7 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 const {sleep} = require('../lib/functions')
 AstroX({
-    pattern: "system",
-    react: "♠️",
+    pattern: "alive",
     alias: ["uptime","status","runtime"],
     desc: "cheack uptime",
     category: "main",
@@ -15,7 +14,7 @@ AstroX({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `
-*[ •  AstroX Uptime Data ‎ • ]*
+*[ •  AstroX Alive Data ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_UPTIME:➠_*
 *│  ◦* ${runtime(process.uptime())}
