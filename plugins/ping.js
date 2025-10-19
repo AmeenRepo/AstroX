@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const AmeenS = await conn.sendMessage(from, { text: AmeenT }, { quoted: mek });
         const end = new Date().getTime();
         const TripTime = end - start;
-        const AmeenET = '*🌩️ꜱᴩᴇᴇᴅ: * ' + TripTime + ' *ms*';
+        const AmeenET = '*🌩️ꜱᴩᴇᴇᴅ:* ' + TripTime + ' *ms*';
         await conn.sendMessage(from, { text: AmeenET, edit: AmeenS.key });
         m.react(config.done);
     } catch (e) {
