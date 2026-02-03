@@ -6,7 +6,7 @@ jidNormalizedUser,
 getContentType,
 fetchLatestBaileysVersion,
 Browsers
-} = require('@whiskeysockets/baileys')
+} = require('baileys')
 //const Ameen = require('./lib/Cronex.js')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
 const fs = require('fs')
