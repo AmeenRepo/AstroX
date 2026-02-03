@@ -1,7 +1,7 @@
 const {AstroX , commands} = require('../command')
 const Jimp = require("jimp");
-var { S_WHATSAPP_NET } = require('@whiskeysockets/baileys');
-const Baileys = require('@whiskeysockets/baileys');
+var { S_WHATSAPP_NET } = require('baileys');
+const Baileys = require('baileys');
 
 AstroX({
     pattern: "fullpp",
